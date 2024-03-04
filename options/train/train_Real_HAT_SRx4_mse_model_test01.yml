@@ -45,7 +45,7 @@ poisson_scale_range2: [0.05, 2.5]
 gray_noise_prob2: 0.4
 jpeg_range2: [30, 95]
 
-gt_size: 160
+gt_size: 128
 queue_size: 180
 
 # dataset and data loader settings
@@ -76,7 +76,7 @@ datasets:
 
     final_sinc_prob: 0.8
 
-    gt_size: 160
+    gt_size: 128
     use_hflip: False
     use_rot: False
 
@@ -84,7 +84,7 @@ datasets:
     use_shuffle: true
     num_worker_per_gpu: 5
     batch_size_per_gpu: 2
-    dataset_enlarge_ratio: 1
+    dataset_enlarge_ratio: 10
     prefetch_mode: ~
 
   # Uncomment these for validation
