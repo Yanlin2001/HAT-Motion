@@ -45,8 +45,8 @@ poisson_scale_range2: [0.05, 2.5]
 gray_noise_prob2: 0.4
 jpeg_range2: [30, 95]
 
-gt_size: 192
-queue_size: 160
+gt_size: 160
+queue_size: 180
 
 # dataset and data loader settings
 datasets:
@@ -76,7 +76,7 @@ datasets:
 
     final_sinc_prob: 0.8
 
-    gt_size: 192
+    gt_size: 160
     use_hflip: False
     use_rot: False
 
